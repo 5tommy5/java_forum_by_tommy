@@ -56,10 +56,8 @@
     <div class="container" style="width: 70%; margin-left:15%; margin-top:2%; margin-bottom:7%">
         <form:form method="POST" modelAttribute="newcom">
 
-            <form:input type="hidden" cssClass="form-control" path="usid"
-                        autofocus="true" value="${pageContext.request.userPrincipal.principal.id}"></form:input>
-            <form:input type="hidden" cssClass="form-control" path="arid"
-                        autofocus="true" value="${arcticl.get(0).getId()}"></form:input>
+            <form:input type="hidden" cssClass="form-control" path="arcticle.id"
+                        autofocus="true"></form:input>
             <span class="text-muted" style="font-size: larger;">Leave your answer</span>
 
 

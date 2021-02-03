@@ -4,7 +4,26 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="487ec5e5-a826-4a5b-8628-aa4b1cc6fc03" name="Default Changelist" comment="" />
+    <list default="true" id="487ec5e5-a826-4a5b-8628-aa4b1cc6fc03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/forum/entity/Arcticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/forum/entity/Arcticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/forum/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/forum/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-arcticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-arcticle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-topic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-topic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/arcticles.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/arcticles.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/simparc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/simparc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/topics.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/topics.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/forum/controller/TopicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/forum/controller/TopicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/forum/entity/Arcticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/forum/entity/Arcticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/forum/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/forum/entity/Comment.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,55 +92,60 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="775563762">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="449" />
+          <entry key="jsp" value="145" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="449" />
+          <entry key="JSP" value="145" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="8" />
+          <entry key="jsp" value="2" />
+          <entry key="properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="8" />
+          <entry key="JSP" value="2" />
+          <entry key="Properties" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/entity/Arcticle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/entity/Comment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-833">
+              <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/repository/ArcticleRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-arcticle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -136,25 +160,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/entity/Topic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/simparc.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="157">
+              <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -172,13 +181,18 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>comm</find>
       <find>topics</find>
       <find>add-arcticle</find>
       <find>save</find>
-      <find>usid</find>
       <find>getcom</find>
+      <find>comm</find>
+      <find>login</find>
+      <find>arid</find>
+      <find>usid</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -188,8 +202,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/forum/repository/RoleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/forum/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/forum/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/news.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
@@ -201,23 +213,26 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/arcticl.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-topic.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-arcticle.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/repository/TopicRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/forum/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/repository/ArcticleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/repository/CommentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/forum/entity/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/simparc.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/entity/Topic.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/topics.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/forum/entity/Arcticle.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/arcticles.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-arcticle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/forum/entity/Arcticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/forum/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/arcticles/simparc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/forum/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/forum/controller/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/forum/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java" />
       </list>
     </option>
@@ -236,52 +251,53 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="forum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -289,8 +305,8 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -298,8 +314,8 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -307,65 +323,38 @@
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="java_forum_by_tommy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_forum_by_tommy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -377,7 +366,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +376,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611949296915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612266597950" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -397,12 +386,15 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Проекты\Java\firstProj\forum\src\main" />
-      <recent name="D:\Проекты\Java\firstProj\forum\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Проекты\Java\firstProj\forum\src\main\webapp\resources\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Проекты\Java\firstProj\forum\java_forum_by_tommy\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\Проекты\Java\firstProj\forum\java_forum_by_tommy\src\main\webapp\WEB-INF\views\profile" />
+      <recent name="D:\Проекты\Java\firstProj\forum\java_forum_by_tommy\src\main\webapp\WEB-INF\views\topics" />
+      <recent name="D:\Проекты\Java\firstProj\forum\java_forum_by_tommy\src\main\webapp\WEB-INF\views\arcticles" />
+      <recent name="D:\Проекты\Java\firstProj\forum\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -445,17 +437,17 @@
       <workItem from="1611819268753" duration="43861000" />
       <workItem from="1611906415770" duration="17166000" />
       <workItem from="1612016815855" duration="2146000" />
+      <workItem from="1612174654624" duration="16711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75254000" />
+    <option name="totallyTimeSpent" value="91965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -465,7 +457,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26666668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26666668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,27 +526,39 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java</url>
-          <line>53</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java</url>
-          <line>92</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java</url>
-          <line>79</line>
+          <line>80</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java</url>
-          <line>126</line>
+          <line>135</line>
           <properties />
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -606,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -623,16 +620,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/controller/UserController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/plus-circle.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="28" column="74" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-topic.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -645,13 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -670,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,13 +658,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/male.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-arcticle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="108" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -707,16 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -811,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/arcticles.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -829,28 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/entity/Arcticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/entity/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/repository/ArcticleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -858,13 +789,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -881,20 +805,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-arcticle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/simparc.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="157">
+          <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/entity/Arcticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-952">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/entity/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1709#1710#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+            <element signature="e#2149#2150#0" expanded="true" />
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/forum/controller/TopicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-833">
+          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
         </state>
       </provider>
     </entry>

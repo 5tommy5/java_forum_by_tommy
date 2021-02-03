@@ -18,7 +18,7 @@ public class Arcticle {
     private String title;
     @Column(columnDefinition="TEXT")
     private String text;
-    private Long usid;
+    //private Long usid;
 
     public Arcticle(Topic topic, User user) {
         this.topic = topic;
@@ -61,13 +61,13 @@ public class Arcticle {
         this.views = views;
     }
 
-    public Long getUsid() {
+   /* public Long getUsid() {
         return usid;
     }
 
     public void setUsid(Long usid) {
         this.usid = usid;
-    }
+    }*/
 
     private LocalDateTime time;
 

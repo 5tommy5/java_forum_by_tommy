@@ -15,13 +15,14 @@ public class Comment {
     private Arcticle arcticle;
     @ManyToOne
     private User user;
-    private Long usid;
+   // private Long usid;
 
-    public Comment(Long arid) {
+    /*public Comment(Long arid) {
         this.arid = arid;
-    }
+    }*/
+    public Comment(Arcticle a){ this.arcticle = a; this.user = new User();}
 
-    private Long arid;
+   // private Long arid;
 
     public Set<User> getUsers() {
         return users;
@@ -31,7 +32,7 @@ public class Comment {
         this.users = users;
     }
 
-    public Long getArid() {
+   /* public Long getArid() {
         return arid;
     }
 
@@ -45,7 +46,7 @@ public class Comment {
 
     public void setUsid(Long usid) {
         this.usid = usid;
-    }
+    }*/
     @ManyToMany(cascade = { CascadeType.ALL }, fetch = FetchType.EAGER)
     @JoinTable(
             name = "likedComments_Users",

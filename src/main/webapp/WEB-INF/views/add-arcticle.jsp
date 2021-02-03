@@ -17,8 +17,7 @@
 <div class="container text-center" style="width: 30%; margin-left:35%; margin-top:5%; margin-bottom:8%">
     <form:form action="" method="POST" modelAttribute="arc">
 
-        <form:input type="hidden" cssClass="form-control" path="usid"
-                    autofocus="true" value="${pageContext.request.userPrincipal.principal.id}"></form:input>
+
         <h2>New article</h2>
 
         <div class="mb-3 w-100" >

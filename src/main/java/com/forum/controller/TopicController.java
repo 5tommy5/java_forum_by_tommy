@@ -9,6 +9,7 @@ import com.forum.repository.CommentRepository;
 import com.forum.repository.TopicRepository;
 import com.forum.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -79,8 +80,8 @@ public class TopicController {
         ArrayList<User> u = new ArrayList<>();
         Comment newcom;
         ArrayList<Comment> comments = new ArrayList<>();
-        Long arid = 0L ;
-        for (Arcticle a:arc
+        //Long arid = 0L ;
+        /*for (Arcticle a:arc
              ) {
             u.add(a.getUser());
             a.setViews(a.getViews()+1);
@@ -88,10 +89,14 @@ public class TopicController {
             //newcom.setArcticle(a);
             arid = a.getId();
             comments = comRep.getAllByArcticle(a);
-        }
+        }*/
+
         arc.get(0).setViews(arc.get(0).getViews()+1);
-        newcom = new Comment(arc.get(0).getId());
-        newcom.setArid(arid);
+        arcRep.save(arc.get(0));
+        comments = comRep.getAllByArcticle(arc.get(0));
+        newcom = new Comment(); //arc.get(0));
+        newcom.setArcticle(arc.get(0));
+        //newcom.setArid(arid);
         model.addAttribute("newcom", newcom);
         model.addAttribute("arcticl", arc);
         model.addAttribute("comments", comments);
@@ -100,8 +105,12 @@ public class TopicController {
     @PostMapping("/arcticles/{id}")
     public String postCom(@ModelAttribute("newcom") @Valid Comment comment, Model model){
         comment.setTime(LocalDateTime.now());
-        comment.setUser(usRep.getOne(comment.getUsid()));
-        comment.setArcticle(arcRep.getOne(comment.getArid()));
+        Arcticle a = comment.getArcticle();
+       // Comment c = comRep.getOne(comment.getId());
+        //Arcticle arc = c.getArcticle();
+        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        comment.setUser(usRep.getOne(user.getId()));
+        //comment.setArcticle(arcRep.getOne(arc.getId()));
         comment.setId(null);
         comRep.saveAndFlush(comment);
         //comRep.getOne(comment.getId()).getArcticle().getId();
@@ -132,8 +141,10 @@ public class TopicController {
     @PostMapping("/add-arcticle/{topic}")
     public String postAddArcticle( @ModelAttribute("arc") @Valid Arcticle arc, Model model)
     {
-        User us = usRep.getOne(arc.getUsid());
-        arc.setUser(us);
+        //User us = usRep.getOne(arc.getUser().getId());
+        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+
+        arc.setUser(user);
         arc.setTime(LocalDateTime.now());
         arcRep.save(arc);
         return "redirect:/topics/"+arcRep.getOne(arc.getId()).getTopic().getId();// + arc.getTopic().getId();
